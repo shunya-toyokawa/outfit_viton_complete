@@ -1,9 +1,7 @@
 #!bin/bash 
 
-apt update && apt upgrade  -y && apt install sudo  vim-gtk rename   git curl gcc g++ curl wget -y
+apt update && apt upgrade  -y && apt install sudo  vim-gtk rename make  git curl gcc g++ curl wget -y
 
-
-cd outfit_viton
 
 pip install -r requirements.txt
 
